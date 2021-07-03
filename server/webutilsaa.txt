@@ -1,0 +1,63 @@
+# FILE: webutilsaa.txt (Oracle Forms)                                 
+#                                                                    
+# This is the default base text file for running a WebUtil-enabled
+# form as a Stand Alone Application.                                   
+#                                                                    
+# IMPORTANT NOTES:                                                 
+# Default values for all the variables which appear below          
+# (enclosed in percent characters) are defined in the servlet      
+# configuration file (formsweb.cfg). It is preferable to make      
+# changes in that file where possible, rather than this one.       
+#                                                                    
+# This file will be REPLACED if you reinstall Oracle Forms, so     
+# you are advised to create your own version if you want to make   
+# any modifications. You should then set the baseSAAfile          
+# parameter in the Forms Servlet configuration file (formsweb.cfg) 
+# to point to your new file instead of this one.                   
+
+CODEBASE=%codebase%
+ARCHIVE=%archive%,%WebUtilArchive%  
+WIDTH=%Width%
+HEIGHT=%Height% 
+NAME=%applet_name%
+serverURL=%appletServerURL%
+networkRetries=%networkRetries%
+separateFrame=%separateFrame%
+splashScreen=%splashScreen%
+background=%background%
+lookAndFeel=%lookAndFeel%
+colorScheme=%colorScheme%
+customColorScheme=%customColorScheme%
+serverApp=%serverApp%
+logo=%logo%
+imageBase=%imageBase%
+formsMessageListener=%formsMessageListener%
+recordFileName=%recordFileName%
+EndUserMonitoringEnabled=%EndUserMonitoringEnabled%
+EndUserMonitoringURL=%EndUserMonitoringURL%
+heartBeat=%heartBeat%
+MaxEventWait=%MaxEventWait%
+disableValidateClipboard=%disableValidateClipboard%
+allowAlertClipboard=%allowAlertClipboard%
+digitSubstitution=%digitSubstitution%
+highContrast=%highContrast%
+disableMDIScrollbars=%disableMDIScrollbars%
+clientDPI=%clientDPI%
+applet_stop_timeout=800
+guiMode=%guiMode%
+idleTimeout=%idleTimeout%
+WebUtilLogging=%WebUtilLogging%
+WebUtilLoggingDetail=%WebUtilLoggingDetail%
+WebUtilErrormode=%WebUtilErrorMode%
+WebUtilDispatchMonitorInterval=%WebUtilDispatchMonitorInterval%
+WebUtilTrustInternal=%WebUtilTrustInternal%
+WebUtilMaxTransferSize=%WebUtilMaxTransferSize%
+WebUtilDateFormat=%WebUtilDateFormat%
+isResizable=%isResizable%
+centerOnStartup=%centerOnStartup%
+alwaysOnTop=%alwaysOnTop% 
+mediaBase=%mediaBase%
+webFormsTitle=%webFormsTitle%
+
+# Forms applet definition (end)
+

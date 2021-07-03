@@ -1,0 +1,39 @@
+<HTML>
+ <!-- FILE: basejpi_jnlp.htm (Oracle Forms)                            -->
+ <!--                                                                  -->  
+ <!-- This is the default base HTML file for running a form on the     -->
+ <!-- web using the JDK Java Plugin through JNLP.                      -->
+ <!--                                                                  -->  
+ <!-- IMPORTANT NOTES:                                                 -->
+ <!-- Default values for all the variables which appear below          -->
+ <!-- (enclosed in percent characters) are defined in the servlet      -->
+ <!-- configuration file (formsweb.cfg). It is preferable to make      -->
+ <!-- changes in that file where possible, rather than this one.       -->
+ <!--                                                                  -->  
+ <!-- This file will be REPLACED if you reinstall Oracle Forms, so     -->
+ <!-- you are advised to create your own version if you want to make   -->
+ <!-- any modifications.  You should then set the baseHTMLjpi          -->
+ <!-- parameter in the Forms Servlet configuration file (formsweb.cfg) -->
+ <!-- to point to your new file instead of this one.                   -->
+
+ <HEAD><TITLE>%pageTitle%</TITLE></HEAD>
+
+  <BODY %HTMLbodyAttrs%>
+  %HTMLbeforeForm%
+
+<!-- COMMENT below is required for legacy-lifecycle support.        -->
+  <COMMENT id="forms_plugin_info" 
+    serverURL="%serverURL%">
+  </COMMENT>
+<!-- Forms applet definition (start) -->
+  <APPLET ALT="Oracle Forms Services applet" WIDTH="%width%" HEIGHT="%height%" NAME="%applet_name%">
+    <PARAM name="jnlp_href" VALUE="forms.jnlp">
+    <PARAM name="jnlp_embedded" VALUE="%embed_jnlp%">
+    <PARAM name="legacy_lifecycle" VALUE="%legacy_lifecycle%">
+    <PARAM name="separate_jvm" VALUE="%separate_jvm%">
+  </APPLET>
+ </BODY>
+ <!-- Forms applet definition (end) -->
+ %HTMLafterForm%
+</HTML>
+

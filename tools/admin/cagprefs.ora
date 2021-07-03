@@ -1,0 +1,400 @@
+Reports.Auto_Confirm = No
+Reports.Auto_Display = No
+Reports.Auto_Reduce = No
+Reports.Auto_Return = No
+Reports.Color_palette_mode = "Read Only, Shared"
+Reports.Date_Masks = 
+ ("MM/DD/RR",
+  "MM-DD-RR",
+  "MON-DD-RR",
+  "MON-DD-RR HH24:MI:SS",
+  "MON-DD-RR HH:MI AM",
+  "fmMon. DD, RRRR",
+  "fmMonth DD, RRRR",
+  "fmMonth DD RRRR",
+  "fmDay, Month DD RRRR",
+  "fmDay Month DD RRRR HH:MI AM",
+  "fmDay ""the"" ddthsp ""of"" Month RRRR",
+  "DD MON RRRR",
+  "DD fmMonth RRRR",
+  "DD-MM-RR",
+  "DD-MON-RR",
+  "DD-MON-RR HH24:MI:SS",
+  "DD-MON-RR HH:MI AM",
+  "DD/MM/RR",
+  "HH:MI AM",
+  "HH:MI:SS AM",
+  "HH24:MI",
+  "HH24:MI:SS")
+Reports.Default_Hgap = ".1"
+Reports.Default_Hinterfield = 2
+Reports.Default_Vgap = ".1"
+Reports.Default_Vinterfield = 0
+Reports.Edit_Mode = Replace
+Reports.Keep_Search_Replace_Open = Yes
+Reports.Number_Masks = 
+ ("$<N,NNNN.00>",
+  "$<NNNNN.00>",
+  "$NNN,NN0",
+  "$NNN,NN0.NN",
+  "(N,NNN)",
+  "(NNNN)",
+  "+N,NNN",
+  +NNNN,
+  "-$N,NNN.NN",
+  "-$NNNN.NN",
+  "-****",
+  "-0000",
+  "-N,NNN",
+  "-NNNN",
+  LNN0D00,
+  LNNNGNN0,
+  LNNNGNN0D00,
+  LNNNGNN0DNN,
+  LNNNGNNNGNN0D00,
+  "N.NNEEEE",
+  NN0,
+  NN0D00,
+  NN0VNN,
+  "NNN,NN0",
+  "NNN,NN0.NN",
+  "NNN,NN0PR",
+  NNNGNN0,
+  NNNGNN0,
+  NNNGNN0,
+  NNNGNN0D00,
+  NNNGNN0DNN,
+  NNNGNN0PR,
+  NNNGNNNGNN0,
+  NNNGNNNGNN0D00,
+  "NNNNN0.NN",
+  NNNNNN0DNN,
+  NNNNNN0DNN,
+  NNNNNNNN0,
+  RN,
+  rn)
+Reports.Object_Access = File
+Reports.Show_All = Yes
+Reports.Show_Plsql = No
+Reports.Show_Queries = No
+Reports.Show_Reports = No
+Reports.Suppress_Define_Prop_Sheets = Yes
+Reports.Suppress_Hints = No
+Reports.Suppress_Plsql_Compilation = No
+Reports.Unit_Of_Measurement = Inch
+Reports.Use_Property_Sheets = No
+Reports.Suppress_Welcome_Dialog = No
+Reports.Suppress_Wizard_Welcome = No
+Reports.Suppress_Chart_Wizard_Welcome = No
+Reports.Suppress_Web_Wizard_Welcome = No
+Reports.Suppress_Report_Editor_On_Open = No
+Reports.Tabular_Template_Desc = 
+ ("Corporate 1",
+  "Corporate 2",
+  "Confidential Heading",
+  "Confidential Background",
+  "Cyan Grid",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Corporate 1 Landscape",
+  "Confidential Heading Landscape",
+  "Confidential Background Landscape",
+  "Cyan Grid Landscape",
+  Draft,
+  "Character Mode")
+Reports.Tabular_Template_File = 
+ (corp1,
+  corp2,
+  conf1,
+  conf2,
+  gngd1,
+  brit1,
+  ncagry,
+  ncayel,
+  corp10,
+  conf10,
+  conf20,
+  gngd10,
+  draft,
+  char1)
+Reports.BreakAbove_Template_Desc = 
+ ("Corporate 1",
+  "Corporate 2",
+  "Confidential Heading",
+  "Confidential Background",
+  "Cyan Grid",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Corporate 1 Landscape",
+  "Confidential Heading Landscape",
+  "Confidential Background Landscape",
+  "Cyan Grid Landscape",
+  Draft,
+  "Character Mode")
+Reports.BreakAbove_Template_File = 
+ (corp1,
+  corp2,
+  conf1,
+  conf2,
+  gngd1,
+  brit1,
+  ncagry,
+  ncayel,
+  corp10,
+  conf10,
+  conf20,
+  gngd10,
+  draft,
+  char1)
+Reports.BreakLeft_Template_Desc = 
+("Corporate 1",
+  "Corporate 2",
+  "Confidential Heading",
+  "Confidential Background",
+  "Cyan Grid",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Corporate 1 Landscape",
+  "Confidential Heading Landscape",
+  "Confidential Background Landscape",
+  "Cyan Grid Landscape",
+  Draft,
+  "Character Mode")
+Reports.BreakLeft_Template_File = 
+ (corp1,
+  corp2,
+  conf1,
+  conf2,
+  gngd1,
+  brit1,
+  ncagry,
+  ncayel,
+  corp10,
+  conf10,
+  conf20,
+  gngd10,
+  draft,
+  char1)
+Reports.FormLetter_Template_Desc = 
+ ("Corporate 1",
+  "Corporate 2",
+  "Confidential Heading",
+  "Confidential Background",
+  "Cyan Grid",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Corporate 1 Landscape",
+  "Confidential Heading Landscape",
+  "Confidential Background Landscape",
+  "Cyan Grid Landscape",
+  Draft,
+  "Character Mode")
+Reports.FormLetter_Template_File = 
+ (corp1,
+  corp2,
+  conf1,
+  conf2,
+  gngd1,
+  brit1,
+  ncagry,
+  ncayel,
+  corp10,
+  conf10,
+  conf20,
+  gngd10,
+  draft,
+  char1)
+Reports.Formlike_Template_Desc = 
+ ("Corporate 1",
+  "Corporate 2",
+  "Confidential Heading",
+  "Confidential Background",
+  "Cyan Grid",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Corporate 1 Landscape",
+  "Confidential Heading Landscape",
+  "Confidential Background Landscape",
+  "Cyan Grid Landscape",
+  Draft,
+  "Character Mode")
+Reports.Formlike_Template_File = 
+ (corp1,
+  corp2,
+  conf1,
+  conf2,
+  gngd1,
+  brit1,
+  ncagry,
+  ncayel,
+  corp10,
+  conf10,
+  conf20,
+  gngd10,
+  draft,
+  char1)
+Reports.MailingLabel_Template_Desc = 
+ ("Corporate 1",
+  "Corporate 2",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Cyan",
+  Draft,
+  "Character Mode")
+Reports.MailingLabel_Template_File = 
+ (corp1,
+  corp2,
+  brit1,
+  ncagry,
+  ncayel,
+  gngd1,
+  draft,
+  char1)
+Reports.Matrix_Template_Desc = 
+("Corporate 1",
+  "Corporate 2",
+  "Confidential Heading",
+  "Confidential Background",
+  "Cyan Grid",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Corporate 1 Landscape",
+  "Confidential Heading Landscape",
+  "Confidential Background Landscape",
+  "Cyan Grid Landscape",
+  Draft,
+  "Character Mode")
+Reports.Matrix_Template_File = 
+ (corp1,
+  corp2,
+  conf1,
+  conf2,
+  gngd1,
+  brit1,
+  ncagry,
+  ncayel,
+  corp10,
+  conf10,
+  conf20,
+  gngd10,
+  draft,
+  char1)
+Reports.MatrixBreak_Template_Desc = 
+("Corporate 1",
+  "Corporate 2",
+  "Confidential Heading",
+  "Confidential Background",
+  "Cyan Grid",
+  "Bright 1",
+  "NCA Grey",
+  "NCA Yellow",
+  "Corporate 1 Landscape",
+  "Confidential Heading Landscape",
+  "Confidential Background Landscape",
+  "Cyan Grid Landscape",
+  Draft,
+  "Character Mode")
+Reports.MatrixBreak_Template_File = 
+ (corp1,
+  corp2,
+  conf1,
+  conf2,
+  gngd1,
+  brit1,
+  ncagry,
+  ncayel,
+  corp10,
+  conf10,
+  conf20,
+  gngd10,
+  draft,
+  char1)
+Reports.MRU_files = ()
+
+Forms.menu_editor_ht = 206
+Forms.menu_editor_max = 0
+Forms.menu_editor_wd = 515
+Forms.menu_editor_x = 58
+Forms.menu_editor_y = 71
+Forms.navigator_ht = 354
+Forms.navigator_max = 0
+Forms.navigator_wd = 306
+Forms.navigator_x = 0
+Forms.navigator_y = 0
+Forms.painter_ht = 261
+Forms.painter_max = 0
+Forms.painter_wd = 400
+Forms.painter_x = 112
+Forms.painter_y = 19
+Forms.plsql_ht = 291
+Forms.plsql_max = 0
+Forms.plsql_wd = 476
+Forms.plsql_x = 91
+Forms.plsql_y = 3
+Forms.properties_ht = 351
+Forms.properties_max = 0
+Forms.properties_wd = 276
+Forms.properties_x = 354
+Forms.properties_y = 0
+Forms.root_ht = 0
+Forms.root_max = 1
+Forms.root_wd = 0
+Forms.root_x = 0
+Forms.root_y = 0
+
+OracleGraphics.Chart_Template_Editor_ht = 304
+OracleGraphics.Chart_Template_Editor_show = No
+OracleGraphics.Chart_Template_Editor_wd = 588
+OracleGraphics.Chart_Template_Editor_x = 22
+OracleGraphics.Chart_Template_Editor_y = 22
+OracleGraphics.Grid = Yes
+OracleGraphics.Layout_Editor_ht = 363
+OracleGraphics.Layout_Editor_wd = 349
+OracleGraphics.Layout_Editor_x = 282
+OracleGraphics.Layout_Editor_y = 0
+OracleGraphics.Navigator_ht = 365
+OracleGraphics.Navigator_wd = 250
+OracleGraphics.Navigator_x = 0
+OracleGraphics.Navigator_y = 0
+OracleGraphics.Page_Breaks = Yes
+OracleGraphics.Plsql_Editor_x = 0
+OracleGraphics.Plsql_Editor_y = 0
+OracleGraphics.Root_Window_ht = "-1"
+OracleGraphics.Root_Window_wd = "-1"
+OracleGraphics.Root_Window_x = "-1"
+OracleGraphics.Root_Window_y = "-1"
+OracleGraphics.Ruler_Guides = Yes
+OracleGraphics.Rulers = Yes
+OracleGraphics.Snap_to_Grid = No
+OracleGraphics.Status_Bar = Yes
+OracleGraphics.Default_Date_Mask = "DD-MON-YY"
+OracleGraphics.Default_Number_Mask = "999,990"
+OracleGraphics.Date_Masks =
+ ("DD-MON-YY",
+  "DD MON YYYY",
+  "DD-MM-YY",
+  "DD-MON-YY HH24:MI:SS",
+  "DD-MON-YY HH:MI AM",
+  "DD/MM/YY",
+  "HH24:MI:SS",
+  "HH:MI AM",
+  "HH:MI:SS AM",
+  "MM-DD-YY",
+  "MM/DD/YY",
+  "MON-DD-YY",
+  "MON-DD-YY HH24:MI:SS",
+  "MON-DD-YY HH:MI AM",
+  "Mon. DD, YYYY",
+  "Month DD, YYYY")
+OracleGraphics.Number_Masks =
+ ("999,990",
+  "999,990.99",
+  "$999,990",
+  "$999,990.99")

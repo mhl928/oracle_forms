@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE\KEY_OracleHome2]
+"FORMS"="C:\\Oracle\\Middleware\\Oracle_Home_Weblogic\\forms"
+    
+[HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE\KEY_OracleHome2]
+"FORMS_PATH"="C:\\Oracle\\Middleware\\Oracle_Home_Weblogic\\forms;C:\\Oracle\\Middleware\\Oracle_Home_Weblogic\\user_projects\\domains\\base_domain\\config\\fmwconfig\\components\\FORMS\\instances\\forms1"
+    
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.fmx]
+@="Oracle.FormCompiled.12"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Oracle.FormCompiled.12]
+@="Oracle Forms Form Compiled"
+"EditFlags"=hex:00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Oracle.FormCompiled.12\DefaultIcon]
+@="C:\\Oracle\\Middleware\\Oracle_Home_Weblogic\\bin\\frmweb.exe,-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mmx]
+@="Oracle.MenuCompiled.12"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Oracle.MenuCompiled.12]
+@="Oracle Forms Menu Compiled"
+"EditFlags"=hex:00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Oracle.MenuCompiled.12\DefaultIcon]
+@="C:\\Oracle\\Middleware\\Oracle_Home_Weblogic\\bin\\frmweb.exe,-2"

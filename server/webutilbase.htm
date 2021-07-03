@@ -1,0 +1,119 @@
+<HTML>
+<!-- FILE: webutilbase.htm (Oracle Forms)                           -->
+<!--                                                                -->
+<!-- This is the default base HTML file for running a form on the   -->
+<!-- web using a generic APPLET tag to include Forms applet.        -->
+<!-- and a certificate regsitration applet for the WebUtil utility  -->
+<!--                                                                -->
+<!-- IMPORTANT NOTES:                                               -->
+<!-- Default values for all the variables which appear below        -->
+<!-- (enclosed in percent characters) are defined in the servlet    -->
+<!-- configuration file (formsweb.cfg). It is preferable to make    -->
+<!-- changes in that file where possible, rather than this one.     -->
+<!--                                                                -->
+<!-- This file uses several extra tags that are not present in the  -->
+<!-- default template files.  You should ensure that these are      -->
+<!-- present in the configuration that uses this template           -->
+<!-- The extra substitution Tags are:                               -->
+<!--  %webUtilArchive% = jar file containing the WebUtil code       -->
+<!--                     (by default this should be frmwebutil.jar) -->
+<!--  %WebUtilLogging% = Defines the current logging mode.          -->
+<!--                     Valid values: off|on|console|server|all    -->
+<!--                     (on == console)                            -->
+<!--  %WebUtilLoggingDetail% = Specifies the level of error logging.-->
+<!--                     Valid values: normal|detailed              -->
+<!--  %WebUtilErrorMode% = Should errors be displayed in an alert   -->
+<!--                     as well as the programmer defined          -->
+<!--                     locations                                  -->
+<!--                     Valid values: console|server|alert|all     -->
+<!--  %WebUtilDispatchMonitorInterval% = Counts in second to        -->
+<!--                     indicate how often the monitor thread      -->
+<!--                     checks to see if the Forms session is still-->
+<!--                     alive. Used with the WebUtil_Session       -->
+<!--                     package.                                   -->
+<!--  %WebUtilTrustInternal% = Should intranet without domain suffix-->
+<!--                     be trusted.                                -->
+<!--                     Valid values: true|yes|false|no            -->
+<!--  %WebUtilMaxTransferSize% = Size in bytes of file transfer     -->
+<!--                     segments. Default and maximum allowed is   -->
+<!--                     16384, i.e. 16K.                           -->
+<!--  %WebUtilDateFormat% = Format of the date which will be used by-->
+<!--                     FILE_MODIFIED_DATE to return the date in   -->
+<!--                     same format. Ex: dd/MM/yy HH:mm:ss         -->
+
+<HEAD><TITLE>%pageTitle% - WebUtil</TITLE></HEAD>
+
+<BODY %HTMLbodyAttrs%>
+%HTMLbeforeForm%
+
+<!-- COMMENT below is required for legacy-lifecycle support.        -->
+<COMMENT id="forms_plugin_info" 
+         serverURL="%serverURL%">
+</COMMENT>
+
+<!-- Forms applet definition (start) -->
+<APPLET CODEBASE="%codebase%"
+        CODE="oracle.forms.engine.Main"
+        ARCHIVE="%archive%,%webUtilArchive%"
+        WIDTH="%Width%"
+        HEIGHT="%Height%"
+        NAME="%applet_name%">
+
+<PARAM NAME="java_version" VALUE="%java_version%">
+<PARAM NAME="serverURL" VALUE="%appletServerURL%">
+<PARAM NAME="networkRetries" VALUE="%networkRetries%">
+<PARAM NAME="separateFrame" VALUE="%separateFrame%">
+<PARAM NAME="splashScreen"  VALUE="%splashScreen%">
+<PARAM NAME="background"  VALUE="%background%">
+<PARAM NAME="lookAndFeel"  VALUE="%lookAndFeel%">
+<PARAM NAME="colorScheme"  VALUE="%colorScheme%">
+<PARAM NAME="customColorScheme"  VALUE="%customColorScheme%">
+<PARAM NAME="serverApp" VALUE="%serverApp%">
+<PARAM NAME="logo" VALUE="%logo%">
+<PARAM NAME="imageBase" VALUE="%imageBase%">
+<PARAM NAME="formsMessageListener" VALUE="%formsMessageListener%">
+<PARAM NAME="recordFileName" VALUE="%recordFileName%">
+<PARAM NAME="EndUserMonitoringEnabled" VALUE="%EndUserMonitoringEnabled%">
+<PARAM NAME="EndUserMonitoringURL" VALUE="%EndUserMonitoringURL%">
+<PARAM NAME="heartbeat" VALUE="%heartbeat%">
+<PARAM NAME="heartBeat" VALUE="%heartBeat%">
+<PARAM NAME="MaxEventWait" VALUE="%MaxEventWait%">
+<PARAM NAME="allowAlertClipboard" VALUE="%allowAlertClipboard%">
+<PARAM NAME="disableValidateClipboard" VALUE="%disableValidateClipboard%">
+<PARAM NAME="enableJavascriptEvent" VALUE="%enableJavascriptEvent%">
+<PARAM NAME="digitSubstitution" VALUE="%digitSubstitution%">
+<PARAM NAME="legacy_lifecycle" VALUE="%legacy_lifecycle%">
+<PARAM NAME="JavaScriptBlocksHeartBeat" VALUE="%JavaScriptBlocksHeartBeat%">
+<PARAM NAME="highContrast" VALUE="%highContrast%">
+<PARAM NAME="disableMDIScrollbars" VALUE="%disableMDIScrollbars%">
+<PARAM NAME="clientDPI" VALUE="%clientDPI%">
+<PARAM NAME="guiMode" VALUE="%guiMode%">
+<PARAM name="idleTimeout" value="%idleTimeout%">
+<PARAM name="ssoLogoutRedirect" value="%ssoLogoutRedirect%">
+<PARAM name="ssoMode" value="%ssoMode%">
+<PARAM name="ssoLogout" value="%ssoLogout%">
+<PARAM name="logoutTargetURLParamname" value="%logoutTargetURLParamname%">
+<PARAM name="mediaBase" value="%mediaBase%">
+<!-- Params specific to webutil -->
+<PARAM NAME="WebUtilLogging" VALUE="%WebUtilLogging%">
+<PARAM NAME="WebUtilLoggingDetail" VALUE="%WebUtilLoggingDetail%">
+<PARAM NAME="WebUtilErrormode" VALUE="%WebUtilErrorMode%">
+<PARAM NAME="WebUtilDispatchMonitorInterval" VALUE="%WebUtilDispatchMonitorInterval%">
+<PARAM NAME="WebUtilTrustInternal" VALUE="%WebUtilTrustInternal%">
+<PARAM NAME="WebUtilMaxTransferSize" VALUE="%WebUtilMaxTransferSize%">
+<PARAM NAME="WebUtilDateFormat" VALUE="%WebUtilDateFormat%">
+<param name="applet_stop_timeout" value="800">
+<PARAM name="separate_jvm" VALUE="%separate_jvm%">
+
+</APPLET>
+<!-- Forms applet definition (end) -->
+
+%HTMLafterForm%
+
+</BODY>
+</HTML>
+
+
+
+
+

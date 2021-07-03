@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0"
+      xmlns:jfx="http://javafx.com"
+      %jnlp_param%="%jnlp_param_value%">
+    <information>
+        <title>Oracle Forms Services</title>
+        <vendor>Oracle Corporation</vendor>
+        <homepage href="http://www.oracle.com"/>
+        <description>Oracle Forms Services with WebUtil applet launcher.</description>
+        <description kind="short">Oracle Forms Applet with WebUtil</description>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <update check="always" policy="prompt-run"/>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="%java_version%" href="http://java.sun.com/products/autodl/j2se"/>
+        <jfx:javafx-runtime version="2.2+"/>
+        <jar href="%contextRoot%/java/frmall.jar" download="eager" main="true" />
+        <jar href="%contextRoot%/java/frmwebutil.jar" download="lazy" main="false" />
+        <extension name="Extensions" href="%contextRoot%/java/extensions.jnlp"/>
+    </resources>
+    <applet-desc 
+    name="Oracle Forms"
+    main-class="oracle.forms.engine.Main"
+    height="1"
+    width="1">
+    <param name="serverURL" value="%appletServerURL%"/>
+    <param name="height" value="%height%"/>
+    <param name="width" value="%width%"/>
+    <param name="networkRetries" value="%networkRetries%"/>
+    <param name="separateFrame" value="%separateFrame%"/>
+    <param name="splashScreen"  value="%splashScreen%"/>
+    <param name="background"  value="%background%"/>
+    <param name="lookAndFeel"  value="%lookAndFeel%"/>
+    <param name="colorScheme"  value="%colorScheme%"/>
+    <param name="customColorScheme"  value="%customColorScheme%"/>
+    <param name="serverApp" value="%serverApp%"/>
+    <param name="logo" value="%logo%"/>
+    <param name="imageBase" value="%imageBase%"/>
+    <param name="formsMessageListener" value="%formsMessageListener%"/>
+    <param name="recordFileName" value="%recordFileName%"/>
+    <param name="EndUserMonitoringEnabled" value="%EndUserMonitoringEnabled%"/>
+    <param name="EndUserMonitoringURL" value="%EndUserMonitoringURL%"/>
+    <param name="heartBeat" value="%heartBeat%"/>
+    <param name="MaxEventWait" value="%MaxEventWait%"/>
+    <param name="allowAlertClipboard" value="%allowAlertClipboard%"/>
+    <param name="disableValidateClipboard" value="%disableValidateClipboard%"/>
+    <param name="enableJavascriptEvent" value="%enableJavascriptEvent%"/>
+    <param name="digitSubstitution" value="%digitSubstitution%"/>
+    <param name="legacy_lifecycle" value="%legacy_lifecycle%"/>
+    <param name="JavaScriptBlocksHeartBeat" value="%JavaScriptBlocksHeartBeat%"/>
+    <param name="highContrast" value="%highContrast%"/>
+    <param name="disableMDIScrollbars" value="%disableMDIScrollbars%"/>
+    <param name="clientDPI" value="%clientDPI%"/>
+    <param name="applet_stop_timeout" value="800"/>
+    <param name="guiMode" value="%guiMode%"/>
+    <param name="idleTimeout" value="%idleTimeout%"/>
+    <param name="ssoLogoutRedirect" value="%ssoLogoutRedirect%"/>
+    <param name="ssoMode" value="%ssoMode%"/>
+    <param name="ssoLogout" value="%ssoLogout%"/>
+    <param name="logoutTargetURLParamname" value="%logoutTargetURLParamname%"/>
+    <param name="mediaBase" value="%mediaBase%"/>
+    <param name="webstartRequest" value="%webstartRequest%"/>
+    <param name="webFormsTitle" value="%webFormsTitle%"/>
+    <param name="centerOnStartup" value="%centerOnStartup%"/>
+    <param name="isResizable" value="%isResizable%"/>
+    <param name="alwaysOnTop" value="%alwaysOnTop%"/>
+
+    <param name="WebUtilLogging" value="%WebUtilLogging%"/>
+    <param name="WebUtilLoggingDetail" value="%WebUtilLoggingDetail%"/>
+    <param name="WebUtilErrormode" value="%WebUtilErrorMode%"/>
+    <param name="WebUtilDispatchMonitorInterval" value="%WebUtilDispatchMonitorInterval%"/>
+    <param name="WebUtilTrustInternal" value="%WebUtilTrustInternal%"/>
+    <param name="WebUtilMaxTransferSize" value="%WebUtilMaxTransferSize%"/>
+    <param name="WebUtilDateFormat" value="%WebUtilDateFormat%"/>
+
+    </applet-desc>
+</jnlp>

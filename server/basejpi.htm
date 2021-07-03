@@ -1,0 +1,137 @@
+<HTML>
+<!-- FILE: basejpi.htm (Oracle Forms)                                 -->
+<!--                                                                  -->  
+<!-- This is the default base HTML file for running a form on the     -->
+<!-- web using the JDK Java Plugin. This is used for example when     -->
+<!-- running with Netscape on Unix.                                   -->
+<!--                                                                  -->  
+<!-- IMPORTANT NOTES:                                                 -->
+<!-- Default values for all the variables which appear below          -->
+<!-- (enclosed in percent characters) are defined in the servlet      -->
+<!-- configuration file (formsweb.cfg). It is preferable to make      -->
+<!-- changes in that file where possible, rather than this one.       -->
+<!--                                                                  -->  
+<!-- This file will be REPLACED if you reinstall Oracle Forms, so     -->
+<!-- you are advised to create your own version if you want to make   -->
+<!-- any modifications.  You should then set the baseHTMLjpi          -->
+<!-- parameter in the Forms Servlet configuration file (formsweb.cfg) -->
+<!-- to point to your new file instead of this one.                   -->
+
+<HEAD><TITLE>%pageTitle%</TITLE></HEAD>
+
+<BODY %HTMLbodyAttrs%>
+%HTMLbeforeForm%
+
+<!-- COMMENT below is required for legacy-lifecycle support.        -->
+<COMMENT id="forms_plugin_info" 
+         serverURL="%serverURL%">
+</COMMENT>
+
+<!-- Forms applet definition (start) -->
+<OBJECT classid="%jpi_classid%"
+        codebase="%jpi_codebase%"
+        WIDTH="%Width%"
+        HEIGHT="%Height%"
+        HSPACE="0"
+        VSPACE="0"
+        ID="%applet_name%">
+
+<PARAM NAME="java_version" VALUE="%java_version%">
+<PARAM NAME="TYPE"       VALUE="%jpi_mimetype%">
+<PARAM NAME="CODEBASE"   VALUE="%codebase%">
+<PARAM NAME="CODE"       VALUE="oracle.forms.engine.Main" >
+<PARAM NAME="ARCHIVE"    VALUE="%archive%" >
+
+<PARAM NAME="serverURL" VALUE="%appletServerURL%">
+<PARAM NAME="networkRetries" VALUE="%networkRetries%">
+<PARAM NAME="separateFrame" VALUE="%separateFrame%">
+<PARAM NAME="splashScreen"  VALUE="%splashScreen%">
+<PARAM NAME="background"  VALUE="%background%">
+<PARAM NAME="lookAndFeel"  VALUE="%lookAndFeel%">
+<PARAM NAME="colorScheme"  VALUE="%colorScheme%">
+<PARAM NAME="customColorScheme"  VALUE="%customColorScheme%">
+<PARAM NAME="serverApp" VALUE="%serverApp%">
+<PARAM NAME="logo" VALUE="%logo%">
+<PARAM NAME="imageBase" VALUE="%imageBase%">
+<PARAM NAME="formsMessageListener" VALUE="%formsMessageListener%">
+<PARAM NAME="recordFileName" VALUE="%recordFileName%">
+<PARAM NAME="EndUserMonitoringEnabled" VALUE="%EndUserMonitoringEnabled%">
+<PARAM NAME="EndUserMonitoringURL" VALUE="%EndUserMonitoringURL%">
+<PARAM NAME="heartBeat" VALUE="%heartBeat%">
+<PARAM NAME="MaxEventWait" VALUE="%MaxEventWait%">
+<PARAM NAME="allowAlertClipboard" VALUE="%allowAlertClipboard%">
+<PARAM NAME="disableValidateClipboard" VALUE="%disableValidateClipboard%">
+<PARAM NAME="enableJavascriptEvent" VALUE="%enableJavascriptEvent%">
+<PARAM NAME="digitSubstitution" VALUE="%digitSubstitution%">
+<PARAM NAME="legacy_lifecycle" VALUE="%legacy_lifecycle%">
+<PARAM NAME="JavaScriptBlocksHeartBeat" VALUE="%JavaScriptBlocksHeartBeat%">
+<PARAM NAME="highContrast" VALUE="%highContrast%">
+<PARAM NAME="disableMDIScrollbars" VALUE="%disableMDIScrollbars%">
+<PARAM NAME="clientDPI" VALUE="%clientDPI%">
+<PARAM name="applet_stop_timeout" value="800">
+<PARAM name="guiMode" value="%guiMode%">
+<PARAM name="idleTimeout" value="%idleTimeout%">
+<PARAM name="ssoLogoutRedirect" value="%ssoLogoutRedirect%">
+<PARAM name="ssoMode" value="%ssoMode%">
+<PARAM name="ssoLogout" value="%ssoLogout%">
+<PARAM name="logoutTargetURLParamname" value="%logoutTargetURLParamname%">
+<PARAM name="mediaBase" value="%mediaBase%">
+<PARAM name="separate_jvm" VALUE="%separate_jvm%">
+<COMMENT> 
+<EMBED SRC="" PLUGINSPAGE="%jpi_download_page%" 
+        java_version="%java_version%"
+        TYPE="%jpi_mimetype%" 
+        java_codebase="%codebase%" 
+        java_code="oracle.forms.engine.Main" 
+        java_archive="%archive%" 
+        WIDTH="%Width%"
+        HEIGHT="%Height%" 
+        HSPACE="0"
+        VSPACE="0"
+        NAME="%applet_name%"
+
+        serverURL="%appletServerURL%"
+        networkRetries="%networkRetries%"
+        separateFrame="%separateFrame%"
+        splashScreen="%splashScreen%"
+        background="%background%"
+        lookAndFeel="%lookAndFeel%"
+        colorScheme="%colorScheme%"
+        customColorScheme="%customColorScheme%"
+        serverApp="%serverApp%"
+        logo="%logo%"
+        imageBase="%imageBase%"
+        recordFileName="%recordFileName%"
+        EndUserMonitoringEnabled="%EndUserMonitoringEnabled%"
+        EndUserMonitoringURL="%EndUserMonitoringURL%"
+        heartBeat="%heartBeat%"
+        MaxEventWait="%MaxEventWait%"
+        disableValidateClipboard="%disableValidateClipboard%"
+        allowAlertClipboard="%allowAlertClipboard%"
+        enableJavascriptEvent="%enableJavascriptEvent%"
+        digitSubstitution="%digitSubstitution%"
+        legacy_lifecycle="%legacy_lifecycle%"
+        JavaScriptBlocksHeartBeat="%JavaScriptBlocksHeartBeat%"
+        highContrast="%highContrast%"
+        disableMDIScrollbars="%disableMDIScrollbars%"
+        clientDPI="%clientDPI%"
+        applet_stop_timeout="800"
+        guiMode="%guiMode%"
+        idleTimeout="%idleTimeout%"
+        ssoLogoutRedirect="%ssoLogoutRedirect%"
+        ssoMode="%ssoMode%"
+        ssoLogout="%ssoLogout%"
+        logoutTargetURLParamname="%logoutTargetURLParamname%"
+        mediaBase="%mediaBase%"
+        separate_jvm="%separate_jvm%"
+>
+<NOEMBED> 
+</COMMENT> 
+</NOEMBED></EMBED> 
+</OBJECT>
+<!-- Forms applet definition (end) -->
+
+%HTMLafterForm%
+
+</BODY>
+</HTML>

@@ -1,0 +1,15 @@
+<logging_configuration>
+    <log_handlers>
+        <log_handler name='handler1' class='oracle.core.ojdl.logging.ODLHandlerFactory'>
+            <property name='path' value='${domain.home}/system_components/FORMS/forms1/jni.log'/>
+            <property name='maxFileSize' value='1000000'/>
+            <property name='maxLogSize' value='5000000'/>
+        </log_handler>
+    </log_handlers>
+    <loggers>
+        <logger name='oracle' level='NOTIFICATION:1' useParentHandlers='false'>
+            <handler name='handler1'/>
+        </logger>
+    </loggers>
+</logging_configuration>
+
